@@ -43,7 +43,7 @@ while (count < 10000)
     }
     
     Console.SetCursorPosition(x, y);
-    Console.WriteLine("+");
+    Console.WriteLine("\x1b[5m▓");
     
     count++;
 }
